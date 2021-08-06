@@ -1,0 +1,18 @@
+[package]
+name = "udnp"
+version = "0.1.0"
+authors = ["Marcel Blanck"]
+license = "MIT or Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/MarcelBlanck/udnp"
+description = """
+An universal dice notation parser (udnp).
+Infix notated input is transformed to rp notation internally.
+This allows fast evaluation for simple and complex equations. 
+"""
+keywords = ["dice", "gamedev", "random"]
+categories = ["command-line-utilities", "game-development"]
+include = ["src/", "LICENSE-*", "README.md"]
+
+[dependencies.rand]
+version = "0.8.4"
