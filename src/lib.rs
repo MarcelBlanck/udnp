@@ -5,10 +5,5 @@
 #![allow(clippy::module_name_repetitions)]
 #![warn(missing_doc_code_examples)]
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn always_fail() {
-        panic!("fail");
-    }
-}
+pub mod dice_roll;
+pub mod dice_roll_result;

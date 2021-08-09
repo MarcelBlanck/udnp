@@ -9,5 +9,6 @@ fn main() -> Result<(), Box<dyn Error>> {
     for arg in args.iter() {
         println!("{}", arg);
     }
+    println!("Random: {}", rand::random::<i32>());
     Ok(())
 }
