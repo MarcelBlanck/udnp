@@ -7,3 +7,4 @@
 
 pub mod dice_roll;
 pub mod dice_roll_result;
+pub mod rpn;
